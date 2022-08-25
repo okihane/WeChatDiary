@@ -1,0 +1,23 @@
+{
+  "name": "wechatdiary",
+  "version": "1.0.0",
+  "description": "微信日记，借助actions实现定时每日推送",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyboy-mu/WeChatDiary.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyboy-mu/WeChatDiary/issues"
+  },
+  "homepage": "https://github.com/sunnyboy-mu/WeChatDiary#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
