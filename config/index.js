@@ -46,7 +46,7 @@ const CONFIG = {
   plugins: {
     // 天气预报
     weather: true,
-    // 天气接口 默认接口1，可选接口1、2
+    // 天气接口 默认接口1，可选接口1、2，接口2暂时无法使用
     weatherType: 1,
     // 星座运势
     star: true,
