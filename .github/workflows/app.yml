@@ -2,20 +2,20 @@ name: WeChatDiary
 
 on:
   schedule:
-  - cron:  '0 0 * * *'
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   send_message:
     runs-on: ubuntu-latest
     name: send morning to your girlfriend
-    
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js '16.x'
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16.x'
-        cache: 'npm'
-    - run: npm i
-    - run: node app.js
+      - uses: actions/checkout@v3
+      - name: Use Node.js '16.x'
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+          cache: "npm"
+      - run: npm i
+      - run: npm run main
