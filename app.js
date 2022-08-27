@@ -2,7 +2,6 @@ const WxApi = require("./api/wxApi");
 const Util = require("./util");
 const BuildMsg = require("./util/buildMsg");
 const { CONFIG } = require("./config/index");
-const TianApi = require("./api/tianApi");
 
 // 主执行函数
 (() => {
