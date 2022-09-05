@@ -12,7 +12,7 @@ const CONFIG = {
   APP_SECRET: "a861a605f1e81cc2ecc6ac658a984a4b",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "_24ekLFi_d_csxzZdOu5nlnRt-SlRu_DKPWrHkThYuA",
+  TEMPLATE_ID: "z6eCxzryYPMmI-y0yD0PT0zmIHllFEl4OSVbLvuxrBo",
 
   // 天行API的key
   TXApiKey: "a6740bc32d75260e46a7d56644c79f34",
@@ -41,7 +41,7 @@ const CONFIG = {
       // 生日 - 格式：05-09
       birthday: "04-03",
       // 城市 - 格式：支持省市县区
-      city: "兴仁市",
+      city: "兴仁县",
     },
   ],
 
