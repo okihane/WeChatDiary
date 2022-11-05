@@ -6,30 +6,42 @@ const CONFIG = {
   // ================================高级配置 - 需要修改================================
 
   // 微信公众号的appID
-  APP_ID: "wx8cce380b885eda7b",
+  APP_ID: "wx161b70074d297e61",
 
   // 微信公众号的appsecret
-  APP_SECRET: "ed4be85c5b4c9ec20ff6a4573c1c0b9e",
+  APP_SECRET: "a861a605f1e81cc2ecc6ac658a984a4b",
 
   // 微信公众号的模板ID
-  TEMPLATE_ID: "hHFo2kk59WI7Ef8R2Ry0_IMQWbUlWIPLfJd1lIkMkuo",
+  TEMPLATE_ID: "s0yhtJdRC6RJ3H_X6FckvSyZigqTNrdffQOPdwnnRgk",
 
   // 天行API的key
-  TXApiKey: "96fd738b99e30ffa1014dad845cd0764",
+  TXApiKey: "a6740bc32d75260e46a7d56644c79f34",
 
   // 用户列表 可配置多个用户
   user: [
     {
       // 男(女)朋友的名字（或昵称或网名）
-      userName: "小沐沐吖",
+      userName: "林茂利",
       // 用户列表的`微信号`
-      userId: "ouvDW5kPNhzombB3FdIeahEeM6CI",
+      userId: "oslpx6IxdHpo9socr7o0NZB3xoMM",
       // 星座
-      star: "摩羯座",
-      // 生日 - 格式：08-22
-      birthday: "01-28",
+      star: "金牛座",
+      // 生日 - 格式：05-09
+      birthday: "05-09",
       // 城市 - 格式：支持省市县区
-      city: "夏邑县",
+      city: "仁怀市",
+    },
+    {
+      // 男(女)朋友的名字（或昵称或网名）
+      userName: "雷鹏",
+      // 用户列表的`微信号`
+      userId: "oslpx6Ls2cQijNqMdUt_Y7cDW6UU",
+      // 星座
+      star: "白羊座",
+      // 生日 - 格式：05-09
+      birthday: "04-03",
+      // 城市 - 格式：支持省市县区
+      city: "兴仁县",
     },
   ],
 
@@ -37,7 +49,7 @@ const CONFIG = {
   tourism: "2022-12-12",
 
   // 恋爱纪念日 - 格式：2022-05-20
-  loveDay: "2022-05-20",
+  loveDay: "2017-09-01",
 
   // ================================功能配置 - 可选修改================================
 
@@ -51,11 +63,11 @@ const CONFIG = {
     // 星座运势
     star: true,
     // 土味情话
-    saylove: true,
+    saylove: false,
     // 健康小提示
-    healthtip: true,
+    healthtip: false,
     // 毒鸡汤
-    duJiTang: true,
+    duJiTang: false,
     // 早安心语
     zaoAn: true,
     // 晚安心语
